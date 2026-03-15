@@ -1,8 +1,5 @@
 package PraktikumPemlan;
 
-//Ahmad Dzaikra Javier
-//255150301111025
-//TI-A
 public class Lingkaran {
     int alas, tinggi;
     
@@ -21,11 +18,6 @@ public class Lingkaran {
 
     public Lingkaran(String alas, String tinggi) {
         parsingString(alas, tinggi);
-    }
-
-    public void parsingString(String alas, String tinggi) {
-        this.alas = Integer.parseInt(alas);
-        this.tinggi = Integer.parseInt(tinggi);
     }
 
     public void setAlas(int alas){
@@ -49,7 +41,10 @@ public class Lingkaran {
         return hasil;
     }
 
-    
+    public void parsingString(String alas, String tinggi) {
+        this.alas = Integer.parseInt(alas);
+        this.tinggi = Integer.parseInt(tinggi);
+    }
 
     public void displayMessage(){
         System.out.println("Hitung Luas : " + hitungLuas());
