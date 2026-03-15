@@ -2,7 +2,6 @@ package PraktikumPemlan;
 
 import java.util.Scanner;
 
-
 public class Overloading {
     public static void HitungLuas(int a, int b){
         int nilai = a * b;
@@ -14,14 +13,12 @@ public class Overloading {
     //    return nilai;
     //}
 
-    //Ahmad Dzaikra Javier
-    //255150301111025
-    //TI-A
     public static void HitungLuas(double value, double value2){
         double nilai = value * value2;
         System.out.println("maka hasil luas : " + nilai);
         //return nilai;
     }
+    
     public static void main(String[] args) {
     
     Scanner in = new Scanner(System.in);
